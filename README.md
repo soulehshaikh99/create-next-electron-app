@@ -262,9 +262,9 @@ app.on("activate", function () {
     "build/**/*",
     "main.js"
   ],
-  "win": {},
-  "linux": {},
-  "mac": {}
+  "win": {},  # Windows Specific Configuration
+  "linux": {},  # Linux Specific Configuration
+  "mac": {}  # MacOs Specific Configuration
 }
 ```
 
